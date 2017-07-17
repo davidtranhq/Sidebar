@@ -1,0 +1,118 @@
+body 
+{
+	width: 320px;
+	height: 568px;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.3); 
+	margin: 0;
+	position: relative;
+	color: white;
+	font-family: lite;
+}
+
+@font-face 
+{
+	font-family: lite;
+	src: url(res/fonts/lite.ttf);
+}
+
+@font-face
+{
+	font-family: bold;
+	src: url(res/fonts/bold.ttf);
+}
+
+#bar
+{
+	background-color: rgba(0,0,0,0.4);
+	position: absolute;
+	width: 40%;
+	height: 100%;
+}
+
+#time
+{
+	text-align: center;
+	text-shadow: 0px 1px 1px rgba(255,255,255, 0.1);
+	font-size: 35px;
+}
+
+#date
+{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 13%;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+#weather
+{
+	position: absolute;
+	bottom: 10%;
+	font-size: 28px;
+	margin: 0;
+	padding-left: 5px;
+}
+
+#state
+{
+  font-size: 13px;
+	position: absolute;
+	bottom: 14%;
+	text-align: left;
+	right: 0%;
+	width: 60%;
+	word-wrap: normal;
+}
+
+#battery
+{
+	position: absolute;
+	bottom: 1%;
+	right: 0%;
+	margin: 0;
+	padding-right: 5px;
+	text-align: right;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+#location
+{
+	position: absolute;
+	bottom: 20%;
+	font-size: 15px;
+	padding-left: 5px;
+}
+
+#battsym
+{
+	position: absolute;
+	bottom: 0%;
+	left: 5%;
+}
+
+#icon
+{
+	width: 50px;
+	height: 50px;
+	bottom: 15%;
+	position: absolute;
+}
+
+#debug
+{
+	font-size: 12px;
+}
+
+#period
+{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 10%;
+	font-size: 12px;
+	text-transform: uppercase;
+}
