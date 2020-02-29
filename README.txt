@@ -5,6 +5,3 @@ You can modify the widget to your liking in the Style.css. The "body" selector r
 If the battery indicator is not working, ensure you have installed either InfoStats or InfoStats2.
 
 If the weather is not showing, ensure you have set either your zip or your city in the Config.js file.
-
-Got questions or concerns?
-Contact me at hydratedcabbage@gmail.com or /u/hydratedcabbage!
